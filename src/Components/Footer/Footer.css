@@ -1,0 +1,31 @@
+.foot{
+    background-color: white;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+.socials{
+    
+    display: inline-flex;
+    cursor: pointer;
+    gap: 20px;
+   
+    margin: 0 auto;
+    
+}
+.a{
+    color: black;
+}
+.fa-angle-up:before{
+    content:'\f106'
+}
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    width: 50%;
+    border-top: 2px solid black;
+}

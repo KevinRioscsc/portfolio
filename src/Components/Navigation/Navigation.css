@@ -1,0 +1,50 @@
+nav{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 0;
+}
+ul{
+    display: flex;
+    
+}
+ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    transition: all .2s ease-in-out;
+}
+li a:hover{
+    border-bottom: 1px solid white;
+}
+button{
+    outline:none;
+    border: 1px solid white;
+    padding: 1em 1.5em;
+    background: transparent;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+button:hover{
+    background: white;
+    color: black;
+}
+@media screen and (max-width: 1200px) {
+    nav{
+        justify-content: space-around;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    nav{
+        display: none;
+    }
+}

@@ -1,0 +1,73 @@
+.left{
+    color: white;
+    font-size: 25px;
+    width: 60%;
+}
+.HeroContainer{
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526);
+    
+}
+.Hero{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 100px;
+    align-items: center;
+    height: 600px;
+}
+.right{
+    font-size: 100px;
+    cursor: pointer;
+}
+.lightblue{
+    color: #55d3fd;
+}
+.custom-shape-divider-bottom-1642142341 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1642142341 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 71px;
+}
+
+.custom-shape-divider-bottom-1642142341 .shape-fill {
+    fill: #FFFFFF;
+}
+@media screen and (max-width: 1200px) {
+    .Hero{
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 900px) {
+    .Hero{
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+        height: 80vh;
+    }
+    .hand{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .left{
+        width: 80%;
+        font-size: 20px;
+    }
+    .right{
+        display: none;
+    }
+    .custom-shape-divider-bottom-1642142341{
+        opacity: 0;
+    }
+}

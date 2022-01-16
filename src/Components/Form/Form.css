@@ -1,0 +1,69 @@
+.form{
+    
+    max-width: 1200px;
+    margin: 0 auto;
+  
+}
+.mail_title{
+    color: white;
+    margin-top: 100px;
+}
+label{
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 100px;
+    gap: 20px;
+}
+.button{
+    outline: none;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    padding: 0.5em 1.5em;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+input{
+    outline: none;
+}
+.message{
+    width: 50%;
+    height: 200px;
+    outline: none;
+}
+.correct{
+    width: 90%;
+   
+}
+@media screen and (max-width: 1250px) {
+    form{
+       width: 70%;
+
+       margin: 100px auto;
+       margin-bottom: 0;
+    }
+    .mail_title{
+        text-align: center;
+        font-size: 27px;
+    }
+    input{
+        align-items: flex-start;
+    }
+    
+    .correct{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 470px) {
+    .message{
+        width: 80%;
+    }
+}
