@@ -53,7 +53,17 @@ section{
     background-color: #bbb;
     color: black;
   }
-  
+  .resume{
+      color: black;
+      border: 1px solid black;
+  }
+  .resume:hover{
+      background-color: black;
+      color: white;
+  }
+  .flexDes{
+      width: 50%;
+  }
   /* Style the back side */
   .flip-card-back {
     background: #232526;  /* fallback for old browsers */
@@ -71,7 +81,7 @@ section{
       width: 50%;
   }
   .aboutDes{
-      width: 50%;
+      
       line-height: 1.3em;
   }
   @media screen and (max-width: 800px) {

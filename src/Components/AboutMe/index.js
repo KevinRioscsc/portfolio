@@ -5,6 +5,7 @@ import profile from '../Images/profilepic.jpg'
 import {ReactComponent as YourSvg} from '../Images/github.svg'
 import {ReactComponent as YourSvg2} from '../Images/linkedin.svg'
 import {ReactComponent as YourSvg3} from '../Images/twitter.svg'
+import resume from '../Assets/resume.pdf'
 
 const AboutMe = () => {
     return (
@@ -38,10 +39,13 @@ const AboutMe = () => {
                         </div>
                     </Fade>
                     <Fade left>
-                        <div className="aboutDes">
-                            <p>I am a Full Stack Developer that has a passion to exceed the expectactions of others. A hardworking and driven person that strives for more than just getting the work done. I have an ability to learn and pick up new languages pretty fast and I can adapt to any work condition and excel in any environment I am thrown in.</p>
-                            <p>My goal is to create meaningful projects that give me a sense of pride and happiness when I deploy them. What hooked me into programming is that rush you get when you solve a bug that was messing with you or finally completing an algorithm that you were working on. This problem solving is what pushes me to keep learning new things and as I result it keeps me from being stagnant</p>
-                            
+                        <div className="flexDes">
+                            <div className="aboutDes">
+                                <p>I am a Full Stack Developer that has a passion to exceed the expectactions of others. A hardworking and driven person that strives for more than just getting the work done. I have an ability to learn and pick up new languages pretty fast and I can adapt to any work condition and excel in any environment I am thrown in.</p>
+                                <p>My goal is to create meaningful projects that give me a sense of pride and happiness when I deploy them. What hooked me into programming is that rush you get when you solve a bug that was messing with you or finally completing an algorithm that you were working on. This problem solving is what pushes me to keep learning new things and as I result it keeps me from being stagnant</p>
+                                
+                            </div>
+                            <a href={resume}  target="_blank" ><button className ="resume">Resume</button></a>
                         </div>
                     </Fade>
                    

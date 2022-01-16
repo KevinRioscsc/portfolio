@@ -1,6 +1,7 @@
 import project from './Components/Images/smart-brain.png'
 import Frend from './Components/Images/Frend2.png'
 import Funky from './Components/Images/Funky.png'
+import Kimo from './Components/Images/Kimo.png'
 
 export const project1 = {
     projectName: 'Frend',
@@ -26,4 +27,11 @@ export const project3 = {
     projectLive: 'https://kevinrioscsc.github.io/FunkyBots/',
     projectSource: 'https://github.com/KevinRioscsc/FunkyBots'
 
+}
+export const project4 ={
+    projectName: 'Kimo Wireless',
+    projectDesc : "This is a landing site for a phone and technology repair shop. This preoject was made in React and used basic css for styling. I made sure that the customer was satisfied with the design and it made for a awesome and visually appealing landing site",
+    projectImg : Kimo,
+    projectLive: 'https://kevinrioscsc.github.io/Kimo-Wireless/',
+    projectSource: 'https://github.com/KevinRioscsc/Kimo-Wireless'
 }
