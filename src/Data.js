@@ -8,7 +8,7 @@ export const project1 = {
     projectDesc : "Frend is a social media music sharing app that uses the spotify API to search for your favorite songs to post on the global newsfeed. Everybody could see what songs you recommend along with a little description of what the song makes you feel. The Login and Register feature uses Firebase Auth and post and likes are stored in a postgres database",
     projectImg : Frend,
     projectLive: 'https://frend-app.herokuapp.com',
-    projectSource: ''
+    projectSource: 'https://github.com/KevinRioscsc/Frend-BackEnd'
 
 }
 
@@ -17,7 +17,7 @@ export const project2 = {
     projectDesc : "SmartBrain is an app that combines React, Node.js, Express, PostgreSQL, and the Clarifai API to create an awesome face recognition app! You could upload a photo to the app and it'll detect a face on the photo. The app tracks the amount of time user has uploaded and used the app. ",
     projectImg : project,
     projectLive: 'https://smart-brain-kevin.herokuapp.com',
-    projectSource: ''
+    projectSource: 'https://github.com/KevinRioscsc/smart-brain-frontend'
 
 }
 export const project3 = {
