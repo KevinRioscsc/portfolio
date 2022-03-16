@@ -15,7 +15,7 @@ export const projectAll = [
 },
 {
     projectName: 'Kimo Wireless',
-    projectDesc : "A landing site for a relatively new technology repair shop. I made sure that the client's request was met in every aspect. The client was satisfied and it made an immediate impact to their sales as the website showcases the skill of the repair man. ",
+    projectDesc : "A landing site for a relatively new technology repair shop. I made sure that the client's request was met in every aspect. The client was satisfied and it made an immediate impact to their sales as the website showcases the skills of the repair men. The Site went live last year and it still around because it serves as a connection between the clients and them.",
     projectImg : Kimo,
     projectLive: 'https://kimowireless.com',
     projectSource: 'https://github.com/KevinRioscsc/Kimo-Wireless'
